@@ -1,10 +1,10 @@
 from setuptools import setup
 
 setup(
-    name='gitopen',
+    name='gierto',
     version='0.0.1',
     description='A command line tool for opening Git repository page in your browser',
-    url='https://github.com/suzaku/gitopen',
+    url='https://github.com/suzaku/gierto',
     author='satoru',
     author_email='satorulogic@gmail.com',
     license='MIT',
@@ -22,10 +22,10 @@ setup(
         'Programming Language :: Python :: 2',
         'Programming Language :: Python :: 2.7',
     ],
-    py_modules=["gitopen"],
+    py_modules=["gierto"],
     entry_points={
         'console_scripts': [
-            'gitopen=gitopen:main'
+            'gierto=gierto:main'
         ]
     }
 )
