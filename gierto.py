@@ -23,7 +23,10 @@ def convert_to_browser_url(url):
 
 def main():
     """Open the home page of remote origin in browser."""
-    cmd = ["git", "remote", "show", "origin", "-n"]
+    remote = 'origin'
+    if len(sys.argv) == 2:
+        remote = sys.argv[1]
+    cmd = ["git", "remote", "show", remote, "-n"]
     p = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     out, err = p.communicate()
     if p.returncode != 0:
