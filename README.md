@@ -1,5 +1,7 @@
 # gierto: A command line tool for opening Git repository page in your browser
 
+[![Build Status](https://travis-ci.org/suzaku/gierto.svg?branch=master)](https://travis-ci.org/suzaku/gierto)
+
 ## Install
 
 1. Using `pipsi`: `pipsi install gierto`
