@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='gierto',
-    version='0.0.1',
+    version='0.0.2',
     description='A command line tool for opening Git repository page in your browser',
     url='https://github.com/suzaku/gierto',
     author='satoru',
